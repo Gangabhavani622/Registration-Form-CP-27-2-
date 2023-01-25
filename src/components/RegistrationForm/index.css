@@ -1,0 +1,64 @@
+/* Write your CSS code here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: bold;
+  color: #ea580c;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 10px;
+}
+
+.input-label {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  padding: 3px;
+  color: #475569;
+  margin: 2px;
+}
+
+.input-name {
+  color: #cbd2d9;
+  border-color: #9aa5b1;
+  padding: 5px;
+  background-color: #ffffff;
+  margin: 2px;
+}
+
+.error-msg {
+  font-family: 'Roboto';
+  font-weight: bold;
+  border-color: #ff0b37;
+  margin: 2px;
+}
+
+.input-empty {
+  background-color: #fef2f4;
+  border-color: #ff0b37;
+}
+
+.btn {
+  background-color: #ea580c;
+  align-self: center;
+  border-style: none;
+  border-radius: 4px;
+  padding: 4px;
+  margin: 2px;
+}
